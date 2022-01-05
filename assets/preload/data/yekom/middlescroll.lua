@@ -1,4 +1,4 @@
-local keepScroll = false
+local keepScroll = true
 
 function onCreate()
 	if getPropertyFromClass('ClientPrefs', 'middleScroll') == true then
